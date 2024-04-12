@@ -113,29 +113,7 @@ include("helpers/variables.php");
       <div class="slider-arrow hero-slider-1-arrow"></div>
     </section>
     <section class="featured section-padding position-relative">
-      <div class="container">
-        <div class="row">
-          <?php
-          die();
-          $Query = "SELECT * FROM bannerfeatures WHERE status = 1";
-          $Result = mysqli_query($conn, $Query);
-          if ($Result->num_rows > 0) {
-            while ($row = mysqli_fetch_array($Result)) {
-          ?>
-              <div class="col-lg-2 col-md-4 mb-md-3 mb-lg-0">
-                <div class="banner-features wow fadeIn animated hover-up">
-                  <img src="<?php echo $row['iconpath']; ?>" alt="" />
-                  <h4 class="bg-1"><?php echo $row['title']; ?></h4>
-                </div>
-              </div>
-          <?php
-            }
-          } else {
-            echo "No Result Found";
-          }
-          ?>
-        </div>
-      </div>
+
     </section>
     <section class="product-tabs section-padding position-relative wow fadeIn animated">
       <div class="bg-square"></div>
@@ -1143,78 +1121,6 @@ include("helpers/variables.php");
               We're an Apple <br />Authorised Service Provider
             </h1>
             <a href="shop-grid-left.php" class="btn">Learn More <i class="fi-rs-arrow-right"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="popular-categories section-padding mt-15 mb-25">
-      <div class="container wow fadeIn animated">
-        <h3 class="section-title mb-20"><span>Popular</span> Categories</h3>
-        <div class="carausel-6-columns-cover position-relative">
-          <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-arrows"></div>
-          <div class="carausel-6-columns" id="carausel-6-columns">
-            <!-- <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-1.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">T-Shirt</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php">
-                  <img src="assets/imgs/shop/category-thumb-2.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Bags</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-3.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Sandan</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-4.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Scarf Cap</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-5.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Shoes</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-6.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Pillowcase</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-7.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Jumpsuits</a></h5>
-            </div> -->
-            <?php
-            die();
-            $Query = "SELECT * FROM popularcategories WHERE status = 1";
-            $Result = mysqli_query($conn, $Query);
-            if ($Result->num_rows > 0) {
-              while ($row = mysqli_fetch_array($Result)) {
-            ?>
-                <div class="card-1">
-                  <figure class="img-hover-scale overflow-hidden">
-                    <a href="<?php echo $row['url']; ?>"><img src="<?php echo $row['image']; ?>" alt="" /></a>
-                  </figure>
-                  <h5><a href="<?php echo $row['url']; ?>"><?php echo $row['title']; ?></a></h5>
-                </div>
-            <?php
-              }
-            } else {
-              echo "No Result Found";
-            }
-            ?>
           </div>
         </div>
       </div>
