@@ -1,7 +1,7 @@
-﻿<!-- <?php
-      include("helpers/config.php");
-      include("helpers/variables.php");
-      ?> -->
+﻿<?php
+// include("helpers/config.php");
+include("helpers/variables.php");
+?>
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
