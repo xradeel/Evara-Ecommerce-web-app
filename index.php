@@ -5,7 +5,6 @@ include("helpers/variables.php");
 
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:55 GMT -->
 
 <head>
   <meta charset="utf-8" />
@@ -117,6 +116,7 @@ include("helpers/variables.php");
       <div class="container">
         <div class="row">
           <?php
+          die();
           $Query = "SELECT * FROM bannerfeatures WHERE status = 1";
           $Result = mysqli_query($conn, $Query);
           if ($Result->num_rows > 0) {
@@ -1197,6 +1197,7 @@ include("helpers/variables.php");
               <h5><a href="shop-grid-left.php">Jumpsuits</a></h5>
             </div> -->
             <?php
+            die();
             $Query = "SELECT * FROM popularcategories WHERE status = 1";
             $Result = mysqli_query($conn, $Query);
             if ($Result->num_rows > 0) {
