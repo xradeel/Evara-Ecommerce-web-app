@@ -1,5 +1,5 @@
 <?php
-// include("helpers/config.php");
+include("helpers/config.php");
 include("helpers/variables.php");
 ?>
 

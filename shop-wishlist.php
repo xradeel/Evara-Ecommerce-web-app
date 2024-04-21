@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿<?php include "scripts/session.php" ?>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 
 

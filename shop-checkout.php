@@ -1,9 +1,6 @@
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-checkout.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:16 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
