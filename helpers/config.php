@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
-$db_name = "evara_eshirt";
+$servername = "adeelsarwar.database.windows.net";
+$username = "adeelsarwar";
+$password = "Fa21-bcs-094";
+$db_name = "web-project";
 
 // Create connection
 $conn = mysqli_connect($servername, $username, $password, $db_name);

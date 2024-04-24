@@ -21,5 +21,5 @@ define("Address2", "#");
 define("Country", "Pakistan");
 define("LiveOnServer", "28 March, 2024");
 define("Developer", "Muhammad Adeel");
-define("DevelopedBy", "Muhammad Adreel");
+define("DevelopedBy", "Muhammad Adeel");
 define("DeveloperEmail", "muhammadadeel.sarwar@studentambassadors.com");
