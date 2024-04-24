@@ -70,7 +70,7 @@ include("helpers/variables.php");
                 <div class="position-relative">
                     <div class="row wow fadeIn animated">
                         <?php
-                        $Query = "SELECT * FROM teammembers WHERE status = 1";
+                        $Query = "SELECT * FROM dbo.teammembers WHERE status = 1";
                         $Result = mysqli_query($conn, $Query);
                         if ($Result->num_rows > 0) {
                             $count = 0;
