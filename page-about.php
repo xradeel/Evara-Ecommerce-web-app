@@ -71,7 +71,7 @@ include("helpers/variables.php");
                     <div class="row wow fadeIn animated">
                         <?php
                         $Query = "SELECT * FROM dbo.teammembers WHERE status = 1";
-                        $Result = mysqli_query($conn, $Query);
+                        $Result = mysqli_query($PDO, $Query);
                         if ($Result->num_rows > 0) {
                             $count = 0;
                             while ($DataRows = mysqli_fetch_array($Result)) {
