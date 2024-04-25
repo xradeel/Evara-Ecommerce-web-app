@@ -65,13 +65,13 @@ include("helpers/variables.php");
                 </div>
                 <div class="position-relative">
                     <div class="row wow fadeIn animated">
-                        <?php
-                        $Query = "SELECT * FROM dbo.teammembers WHERE status = 1";
-                        $Result = mysqli_query($PDO, $Query);
-                        if ($Result->num_rows > 0) {
-                            $count = 0;
-                            while ($DataRows = mysqli_fetch_array($Result)) {
-                        ?>
+                        <!-- <?php
+                                // $Query = "SELECT * FROM dbo.teammembers WHERE status = 1";
+                                // $Result = mysqli_query($PDO, $Query);
+                                // if ($Result->num_rows > 0) {
+                                //     $count = 0;
+                                //     while ($DataRows = mysqli_fetch_array($Result)) {
+                                ?>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="blog-card border-radius-10 overflow-hidden text-center">
                                         <img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
@@ -85,13 +85,55 @@ include("helpers/variables.php");
                                     </div>
                                 </div>
                         <?php
-                                $count++;
-                                if ($count == 4) break;
+                        //         $count++;
+                        //         if ($count == 4) break;
+                        //     }
+                        // } else {
+                        //     echo "No Result Found";
+                        // }
+                        ?> -->
+
+                        <?php
+
+                        try {
+                            // Execute the SELECT query
+                            $query = "SELECT * FROM dbo.teammembers WHERE status = 1";
+                            $stmt = $conn->query($query);
+
+                            // Fetch the results
+                            $teamMembers = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+                            if (count($teamMembers) > 0) {
+                                $count = 0;
+                                foreach ($teamMembers as $DataRows) {
+                                    // Display team member data
+                        ?>
+                                    <!--col-->
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="blog-card border-radius-10 overflow-hidden text-center">
+                                            <img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
+                                            <h4 class="fw-500 mb-0"><?php echo $DataRows['name']; ?></h4>
+                                            <p class="fw-400 text-brand mb-10"><?php echo $DataRows['designation']; ?></p>
+                                            <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
+                                                <a href="<?php echo $DataRows['facebook']; ?>"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt="Icon not found"></a>
+                                                <a href="<?php echo $DataRows['twitter']; ?>"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
+                                                <a href="<?php echo $DataRows['insta']; ?>"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--col-->
+                        <?php
+                                    $count++;
+                                    if ($count == 4) break;
+                                }
+                            } else {
+                                echo "No Result Found";
                             }
-                        } else {
-                            echo "No Result Found";
+                        } catch (PDOException $e) {
+                            echo "Query execution failed: " . $e->getMessage();
                         }
                         ?>
+
                     </div>
                 </div>
             </div>
