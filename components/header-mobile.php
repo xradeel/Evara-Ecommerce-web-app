@@ -55,9 +55,7 @@
                         </ul>
                     </div>
                 </div>
-                <!-- mobile menu start -->
 
-                <!-- mobile menu start -->
                 <nav>
                     <ul class="mobile-menu">
                         <li class="menu-item-has-children"><a href="index.php">Home</a>
@@ -118,8 +116,6 @@
                         </li>
                     </ul>
                 </nav>
-                <!-- mobile menu end -->
-                <!-- mobile menu end -->
             </div>
             <div class="mobile-header-info-wrap mobile-header-border">
                 <div class="single-mobile-header-info mt-30">

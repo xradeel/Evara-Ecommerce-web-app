@@ -16,18 +16,14 @@ include("helpers/variables.php");
     <meta property="og:type" content="" />
     <meta property="og:url" content="" />
     <meta property="og:image" content="" />
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg" />
-    <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/maind134.css" />
 </head>
 
 <body>
-    <!-- modal veiw -->
     <?php
     // include("components/poster-modal.php") 
     ?>
-    <!-- link headers -->
     <?php
     // Quick view header
     require("components/quick-view.php");
@@ -159,7 +155,6 @@ include("helpers/variables.php");
                     </ul>
                     <a href="#" class="view-more d-none d-md-flex">View More<i class="fi-rs-angle-double-small-right"></i></a>
                 </div>
-                <!--End nav-tabs-->
                 <div class="tab-content wow fadeIn animated" id="myTabContent">
                     <div class="tab-pane fade show active" id="tab-one" role="tabpanel" aria-labelledby="tab-one">
                         <div class="row product-grid-4">
@@ -480,9 +475,7 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-grid-4-->
                     </div>
-                    <!--En tab one (Featured)-->
                     <div class="tab-pane fade" id="tab-two" role="tabpanel" aria-labelledby="tab-two">
                         <div class="row product-grid-4">
                             <div class="col-lg-3 col-md-4 col-12 col-sm-6">
@@ -802,9 +795,7 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-grid-4-->
                     </div>
-                    <!--En tab two (Popular)-->
                     <div class="tab-pane fade" id="tab-three" role="tabpanel" aria-labelledby="tab-three">
                         <div class="row product-grid-4">
                             <div class="col-lg-3 col-md-4 col-12 col-sm-6">
@@ -1125,11 +1116,8 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-grid-4-->
                     </div>
-                    <!--En tab three (New added)-->
                 </div>
-                <!--End tab-content-->
             </div>
         </section>
         <section class="banner-2 section-padding pb-0">
@@ -1152,69 +1140,68 @@ include("helpers/variables.php");
                 <div class="carausel-6-columns-cover position-relative">
                     <div class="slider-arrow slider-arrow-2 carausel-6-columns-arrow" id="carausel-6-columns-arrows"></div>
                     <div class="carausel-6-columns" id="carausel-6-columns">
-                        <!-- <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-1.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">T-Shirt</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php">
-                  <img src="assets/imgs/shop/category-thumb-2.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Bags</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-3.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Sandan</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-4.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Scarf Cap</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-5.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Shoes</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-6.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Pillowcase</a></h5>
-            </div>
-            <div class="card-1">
-              <figure class="img-hover-scale overflow-hidden">
-                <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-7.jpg" alt="" /></a>
-              </figure>
-              <h5><a href="shop-grid-left.php">Jumpsuits</a></h5>
-            </div> -->
-                        <?php
-                        $Query = "SELECT * FROM popularcategories WHERE status = 1";
-                        $Result = mysqli_query($conn, $Query);
-                        if ($Result->num_rows > 0) {
-                            while ($row = mysqli_fetch_array($Result)) {
-                        ?>
-                                <div class="card-1">
-                                    <figure class="img-hover-scale overflow-hidden">
-                                        <a href="<?php echo $row['url']; ?>"><img src="<?php echo $row['image']; ?>" alt="" /></a>
-                                    </figure>
-                                    <h5><a href="<?php echo $row['url']; ?>"><?php echo $row['title']; ?></a></h5>
-                                </div>
-                        <?php
-                            }
-                        } else {
-                            echo "No Result Found";
-                        }
-                        ?>
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-1.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">T-Shirt</a></h5>
                     </div>
+                    <div class="card-1">
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php">
+                                <img src="assets/imgs/shop/category-thumb-2.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">Bags</a></h5>
+                    </div>
+                    <div class="card-1">
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-3.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">Sandan</a></h5>
+                    </div>
+                    <div class="card-1">
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-4.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">Scarf Cap</a></h5>
+                    </div>
+                    <div class="card-1">
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-5.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">Shoes</a></h5>
+                    </div>
+                    <div class="card-1">
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-6.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">Pillowcase</a></h5>
+                    </div>
+                    <div class="card-1">
+                        <figure class="img-hover-scale overflow-hidden">
+                            <a href="shop-grid-left.php"><img src="assets/imgs/shop/category-thumb-7.jpg" alt="" /></a>
+                        </figure>
+                        <h5><a href="shop-grid-left.php">Jumpsuits</a></h5>
+                    </div> -->
+                    <?php
+                    $Query = "SELECT * FROM popularcategories WHERE status = 1";
+                    $Result = mysqli_query($conn, $Query);
+                    if ($Result->num_rows > 0) {
+                        while ($row = mysqli_fetch_array($Result)) {
+                    ?>
+                            <div class="card-1">
+                                <figure class="img-hover-scale overflow-hidden">
+                                    <a href="<?php echo $row['url']; ?>"><img src="<?php echo $row['image']; ?>" alt="" /></a>
+                                </figure>
+                                <h5><a href="<?php echo $row['url']; ?>"><?php echo $row['title']; ?></a></h5>
+                            </div>
+                    <?php
+                        }
+                    } else {
+                        echo "No Result Found";
+                    }
+                    ?>
                 </div>
+            </div>
             </div>
         </section>
         <section class="banners mb-15">
@@ -1290,7 +1277,6 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                         <div class="product-cart-wrap small hover-up">
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
@@ -1320,7 +1306,6 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                         <div class="product-cart-wrap small hover-up">
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
@@ -1352,7 +1337,6 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                         <div class="product-cart-wrap small hover-up">
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
@@ -1382,7 +1366,6 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                         <div class="product-cart-wrap small hover-up">
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
@@ -1412,7 +1395,6 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                         <div class="product-cart-wrap small hover-up">
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
@@ -1444,7 +1426,6 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                         <div class="product-cart-wrap small hover-up">
                             <div class="product-img-action-wrap">
                                 <div class="product-img product-img-zoom">
@@ -1471,63 +1452,61 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End product-cart-wrap-2-->
                     </div>
                 </div>
             </div>
         </section>
-        <!-- <section class="deals section-padding">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 deal-co">
-            <div class="deal wow fadeIn animated mb-md-4 mb-sm-4 mb-lg-0" style="
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 deal-co">
+                    <div class="deal wow fadeIn animated mb-md-4 mb-sm-4 mb-lg-0" style="
                   background-image: url('assets/imgs/banner/menu-banner-7.jpg');
                 ">
-              <div class="deal-top">
-                <h2 class="text-brand">Deal of the Day</h2>
-                <h5>Limited quantities.</h5>
-              </div>
-              <div class="deal-content">
-                <h6 class="product-title">
-                  <a href="shop-product-full.php">Summer Collection New Morden Design</a>
-                </h6>
-                <div class="product-price">
-                  <span class="new-price">$139.00</span><span class="old-price">$160.99</span>
+                        <div class="deal-top">
+                            <h2 class="text-brand">Deal of the Day</h2>
+                            <h5>Limited quantities.</h5>
+                        </div>
+                        <div class="deal-content">
+                            <h6 class="product-title">
+                                <a href="shop-product-full.php">Summer Collection New Morden Design</a>
+                            </h6>
+                            <div class="product-price">
+                                <span class="new-price">$139.00</span><span class="old-price">$160.99</span>
+                            </div>
+                        </div>
+                        <div class="deal-bottom">
+                            <p>Hurry Up! Offer End In:</p>
+                            <div class="deals-countdown" data-countdown="2025/03/25 12:10:00"></div>
+                            <a href="shop-grid-left.php" class="btn hover-up">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="deal-bottom">
-                <p>Hurry Up! Offer End In:</p>
-                <div class="deals-countdown" data-countdown="2025/03/25 12:10:00"></div>
-                <a href="shop-grid-left.php" class="btn hover-up">Shop Now <i class="fi-rs-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 deal-co">
-            <div class="deal wow fadeIn animated" style="
+                <div class="col-lg-6 deal-co">
+                    <div class="deal wow fadeIn animated" style="
                   background-image: url('assets/imgs/banner/menu-banner-8.jpg');
                 ">
-              <div class="deal-top">
-                <h2 class="text-brand">Men Clothing</h2>
-                <h5>Shirt & Bag</h5>
-              </div>
-              <div class="deal-content">
-                <h6 class="product-title">
-                  <a href="shop-product-full.php">Try something new on vacation</a>
-                </h6>
-                <div class="product-price">
-                  <span class="new-price">$178.00</span><span class="old-price">$256.99</span>
+                        <div class="deal-top">
+                            <h2 class="text-brand">Men Clothing</h2>
+                            <h5>Shirt & Bag</h5>
+                        </div>
+                        <div class="deal-content">
+                            <h6 class="product-title">
+                                <a href="shop-product-full.php">Try something new on vacation</a>
+                            </h6>
+                            <div class="product-price">
+                                <span class="new-price">$178.00</span><span class="old-price">$256.99</span>
+                            </div>
+                        </div>
+                        <div class="deal-bottom">
+                            <p>Hurry Up! Offer End In:</p>
+                            <div class="deals-countdown" data-countdown="2026/03/25 00:00:00"></div>
+                            <a href="shop-grid-left.php" class="btn hover-up">Shop Now <i class="fi-rs-arrow-right"></i></a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="deal-bottom">
-                <p>Hurry Up! Offer End In:</p>
-                <div class="deals-countdown" data-countdown="2026/03/25 00:00:00"></div>
-                <a href="shop-grid-left.php" class="btn hover-up">Shop Now <i class="fi-rs-arrow-right"></i></a>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </section> -->
+        </section> -->
         <section class="section-padding">
             <div class="container">
                 <h3 class="section-title mb-20 wow fadeIn animated">
@@ -1804,7 +1783,6 @@ include("helpers/variables.php");
                                     </div>
                                 </div>
                             </div>
-                            <!--End tab-pane-->
                             <div class="tab-pane fade" id="tab-two-1" role="tabpanel" aria-labelledby="tab-two-1">
                                 <div class="carausel-4-columns-cover arrow-center position-relative">
                                     <div class="slider-arrow slider-arrow-2 carausel-4-columns-arrow" id="carausel-4-columns-2-arrows"></div>
@@ -2210,9 +2188,7 @@ include("helpers/variables.php");
                                 </div>
                             </div>
                         </div>
-                        <!--End tab-content-->
                     </div>
-                    <!--End Col-lg-9-->
                 </div>
             </div>
         </section>
@@ -2494,10 +2470,8 @@ include("helpers/variables.php");
     require("components/pre-loader.php");
     ?>
 
-    <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
 </body>
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:05 GMT -->
 
 </html>

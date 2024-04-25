@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-transactions-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:52 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -14,9 +13,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -50,7 +47,7 @@
                                         <a class="btn btn-secondary print ms-2" href="#"><i class="icon material-icons md-print mr-5"></i>Print</a>
                                     </div>
                                 </div>
-                            </header> <!-- card-header end// -->
+                            </header>
                             <hr>
                             <div class="trans-details mb-30">
                                 <div class="box shadow-sm bg-light">
@@ -162,11 +159,11 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div> <!-- table-responsive// -->
+                            </div>
 
                             <h5 class="mb-15">Transaction Note</h5>
                             <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, veritatis at. Dolore facilis repellat numquam cum, id, iste sint libero odio atque a quam ducimus cumque quis enim reiciendis repellendus?</p>
-                        </div> <!-- col end// -->
+                        </div>
                         <div class="col-lg-4">
                             <header class="border-bottom mb-4 pb-4">
                                 <div class="row">
@@ -186,7 +183,7 @@
                                         </select>
                                     </div>
                                 </div>
-                            </header> <!-- card-header end// -->
+                            </header>
 
                             <div class="table-responsive">
                                 <table class="table table-hover">
@@ -281,7 +278,7 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div> <!-- table-responsive.// -->
+                            </div>
                             <div class="pagination-area mt-30 mb-50">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination justify-content-start">
@@ -292,11 +289,11 @@
                                     </ul>
                                 </nav>
                             </div>
-                        </div> <!-- col end// -->
+                        </div>
 
-                    </div> <!-- row end// -->
-                </div> <!-- card-body // -->
-            </div> <!-- card end// -->
+                    </div>
+                </div>
+            </div>
 
         </section>
         <footer class="main-footer font-xs">
@@ -320,11 +317,9 @@
     <script src="assets/js/vendors/select2.min.js"></script>
     <script src="assets/js/vendors/perfect-scrollbar.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-transactions-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:52 GMT -->
 
 </html>

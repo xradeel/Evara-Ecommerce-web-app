@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-account-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:52 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara Dashboard</title>
@@ -14,9 +11,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -30,24 +25,19 @@
                         <div class="mb-3">
                             <label class="form-label">Email</label>
                             <input class="form-control" placeholder="Your email" type="text">
-                        </div> <!-- form-group// -->
-                        <div class="mb-3">
-                            <label class="form-label">Phone</label>
-                            <div class="row gx-2">
-                                <div class="col-4"> <input class="form-control" value="+998" type="text"> </div>
-                                <div class="col-8"> <input class="form-control" placeholder="Phone" type="text"> </div>
-                            </div>
-                        </div> <!-- form-group// -->
-                        <div class="mb-3">
-                            <label class="form-label">Create password</label>
-                            <input class="form-control" placeholder="Password" type="password">
-                        </div> <!-- form-group// -->
-                        <div class="mb-3">
-                            <p class="small text-center text-muted">By signing up, you confirm that you’ve read and accepted our User Notice and Privacy Policy.</p>
-                        </div> <!-- form-group  .// -->
-                        <div class="mb-4">
-                            <button type="submit" class="btn btn-primary w-100"> Login </button>
-                        </div> <!-- form-group// -->
+                            <div class="mb-3">
+                                <label class="form-label">Phone</label>
+                                <div class="row gx-2">
+                                    <div class="col-4"> <input class="form-control" value="+998" type="text"> </div>
+                                    <div class="col-8"> <input class="form-control" placeholder="Phone" type="text"> </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Create password</label>
+                                    <input class="form-control" placeholder="Password" type="password">
+                                    <div class="mb-3">
+                                        <p class="small text-center text-muted">By signing up, you confirm that you’ve read and accepted our User Notice and Privacy Policy.</p>
+                                        <div class="mb-4">
+                                            <button type="submit" class="btn btn-primary w-100"> Login </button>
                     </form>
                     <p class="text-center small text-muted mb-15">or sign up with</p>
                     <div class="d-flex gap-2 mb-4">
@@ -81,11 +71,9 @@
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-account-register.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:52 GMT -->
 
 </html>

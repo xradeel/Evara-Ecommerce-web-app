@@ -11,15 +11,11 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/maind134.css?v=3.4">
 </head>
 
 <body>
-    <!-- Quick view -->
-    <!-- link headers -->
     <?php
     require("components/quick-view.php");
     require("components/header-one.php");
@@ -44,7 +40,6 @@
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="detail-gallery">
                                         <span class="zoom-icon"><i class="fi-rs-search"></i></span>
-                                        <!-- MAIN SLIDES -->
                                         <div class="product-image-slider">
                                             <figure class="border-radius-10">
                                                 <img src="assets/imgs/shop/product-16-2.jpg" alt="product image">
@@ -68,7 +63,6 @@
                                                 <img src="assets/imgs/shop/product-16-7.jpg" alt="product image">
                                             </figure>
                                         </div>
-                                        <!-- THUMBNAILS -->
                                         <div class="slider-nav-thumbnails pl-15 pr-15">
                                             <div><img src="assets/imgs/shop/thumbnail-3.jpg" alt="product image"></div>
                                             <div><img src="assets/imgs/shop/thumbnail-4.jpg" alt="product image"></div>
@@ -79,7 +73,6 @@
                                             <div><img src="assets/imgs/shop/thumbnail-9.jpg" alt="product image"></div>
                                         </div>
                                     </div>
-                                    <!-- End Gallery -->
                                 </div>
                                 <div class="col-md-6 col-sm-12 col-xs-12">
                                     <div class="detail-info">
@@ -155,7 +148,6 @@
                                             <li>Availability:<span class="in-stock text-success ml-5">8 Items In Stock</span></li>
                                         </ul>
                                     </div>
-                                    <!-- Detail Info -->
                                 </div>
                             </div>
                             <div class="row">
@@ -286,7 +278,6 @@
                                         </ul>
                                     </div>
                                     <h3 class="section-title style-1 mb-30 mt-30">Reviews (3)</h3>
-                                    <!--Comments-->
                                     <div class="comments-area style-2">
                                         <div class="row">
                                             <div class="col-lg-8">
@@ -314,7 +305,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!--single-comment -->
                                                     <div class="single-comment justify-content-between d-flex">
                                                         <div class="user justify-content-between d-flex">
                                                             <div class="thumb text-center">
@@ -337,7 +327,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!--single-comment -->
                                                     <div class="single-comment justify-content-between d-flex">
                                                         <div class="user justify-content-between d-flex">
                                                             <div class="thumb text-center">
@@ -360,7 +349,6 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <!--single-comment -->
                                                 </div>
                                             </div>
                                             <div class="col-lg-4">
@@ -396,7 +384,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!--comment form-->
                                     <div class="comment-form">
                                         <h4 class="mb-15">Add a review</h4>
                                         <div class="product-rate d-inline-block mb-30">
@@ -586,14 +573,11 @@
         </section>
     </main>
 
-    <!-- link footer and preloader -->
     <?php require("components/footer-one.php") ?>
     <?php require("components/pre-loader.php") ?>
-    <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-product-full.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:58 GMT -->
 
 </html>

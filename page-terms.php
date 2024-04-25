@@ -1,9 +1,6 @@
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:21:32 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
@@ -14,14 +11,11 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/maind134.css?v=3.4">
 </head>
 
 <body>
-    <!-- link headers -->
     <?php
     require("components/header-two.php");
     require("components/header-mobile.php");
@@ -93,7 +87,6 @@
                                     </form>
                                 </div>
                             </div>
-                            <!--Widget categories-->
                             <div class="sidebar-widget widget_categories mb-40">
                                 <div class="widget-header position-relative mb-20 pb-10">
                                     <h5 class="widget-title">Categories</h5>
@@ -109,7 +102,6 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!--Widget latest posts style 1-->
                             <div class="sidebar-widget widget_alitheme_lastpost mb-20">
                                 <div class="widget-header position-relative mb-20 pb-10">
                                     <h5 class="widget-title">Trending Now</h5>
@@ -187,7 +179,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!--Widget ads-->
                             <div class="banner-img wow fadeIn mb-45 animated d-lg-block d-none animated">
                                 <img src="assets/imgs/banner/banner-11.jpg" alt="">
                                 <div class="banner-text">
@@ -196,7 +187,6 @@
                                     <a href="shop-grid-right.html">Shop Now <i class="fi-rs-arrow-right"></i></a>
                                 </div>
                             </div>
-                            <!--Widget Tags-->
                             <div class="sidebar-widget widget_tags mb-50">
                                 <div class="widget-header position-relative mb-20 pb-10">
                                     <h5 class="widget-title">Popular tags </h5>
@@ -217,16 +207,13 @@
             </div>
         </section>
     </main>
-    <!-- add footer and pre loader  -->
     <?php
     require("components/footer-one.php");
     require("components/pre-loader.php");
     ?>
-    <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-terms.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:21:37 GMT -->
 
 </html>

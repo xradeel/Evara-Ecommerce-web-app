@@ -7,7 +7,6 @@
                     <div class="col-md-6 col-sm-12 col-xs-12">
                         <div class="detail-gallery">
                             <span class="zoom-icon"><i class="fi-rs-search"></i></span>
-                            <!-- MAIN SLIDES -->
                             <div class="product-image-slider">
                                 <figure class="border-radius-10">
                                     <img src="assets/imgs/shop/product-16-2.jpg" alt="product image">
@@ -31,7 +30,6 @@
                                     <img src="assets/imgs/shop/product-16-7.jpg" alt="product image">
                                 </figure>
                             </div>
-                            <!-- THUMBNAILS -->
                             <div class="slider-nav-thumbnails pl-15 pr-15">
                                 <div><img src="assets/imgs/shop/thumbnail-3.jpg" alt="product image"></div>
                                 <div><img src="assets/imgs/shop/thumbnail-4.jpg" alt="product image"></div>
@@ -42,7 +40,6 @@
                                 <div><img src="assets/imgs/shop/thumbnail-9.jpg" alt="product image"></div>
                             </div>
                         </div>
-                        <!-- End Gallery -->
                         <div class="social-icons single-share">
                             <ul class="text-grey-5 d-inline-block">
                                 <li><strong class="mr-10">Share this:</strong></li>
@@ -121,7 +118,6 @@
                                 <li>Availability:<span class="in-stock text-success ml-5">8 Items In Stock</span></li>
                             </ul>
                         </div>
-                        <!-- Detail Info -->
                     </div>
                 </div>
             </div>

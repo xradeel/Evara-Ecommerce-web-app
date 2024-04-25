@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-orders-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:42 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -14,9 +13,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -53,7 +50,7 @@
                             <a class="btn btn-secondary print ms-2" href="#"><i class="icon material-icons md-print"></i></a>
                         </div>
                     </div>
-                </header> <!-- card-header end// -->
+                </header>
                 <div class="card-body">
                     <div class="row mb-50 mt-20 order-info-wrap">
                         <div class="col-md-4">
@@ -69,7 +66,7 @@
                                     <a href="#">View profile</a>
                                 </div>
                             </article>
-                        </div> <!-- col// -->
+                        </div>
                         <div class="col-md-4">
                             <article class="icontext align-items-start">
                                 <span class="icon icon-sm rounded-circle bg-primary-light">
@@ -83,7 +80,7 @@
                                     <a href="#">Download info</a>
                                 </div>
                             </article>
-                        </div> <!-- col// -->
+                        </div>
                         <div class="col-md-4">
                             <article class="icontext align-items-start">
                                 <span class="icon icon-sm rounded-circle bg-primary-light">
@@ -97,8 +94,8 @@
                                     <a href="#">View profile</a>
                                 </div>
                             </article>
-                        </div> <!-- col// -->
-                    </div> <!-- row // -->
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-lg-7">
                             <div class="table-responsive">
@@ -190,9 +187,9 @@
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div> <!-- table-responsive// -->
+                            </div>
                             <a class="btn btn-primary" href="page-orders-tracking.php">View Order Tracking</a>
-                        </div> <!-- col// -->
+                        </div>
                         <div class="col-lg-1"></div>
                         <div class="col-lg-4">
                             <div class="box shadow-sm bg-light">
@@ -210,11 +207,11 @@
                                 </div>
                                 <button class="btn btn-primary">Save note</button>
                             </div>
-                        </div> <!-- col// -->
+                        </div>
                     </div>
-                </div> <!-- card-body end// -->
-            </div> <!-- card end// -->
-        </section> <!-- content-main end// -->
+                </div>
+            </div>
+        </section>
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
@@ -236,11 +233,9 @@
     <script src="assets/js/vendors/select2.min.js"></script>
     <script src="assets/js/vendors/perfect-scrollbar.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-orders-detail.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:42 GMT -->
 
 </html>

@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-account-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:52 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara Dashboard</title>
@@ -14,9 +11,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -30,20 +25,16 @@
                     <form>
                         <div class="mb-3">
                             <input class="form-control" placeholder="Username or email" type="text">
-                        </div> <!-- form-group// -->
-                        <div class="mb-3">
-                            <input class="form-control" placeholder="Password" type="password">
-                        </div> <!-- form-group// -->
-                        <div class="mb-3">
-                            <a href="#" class="float-end font-sm text-muted">Forgot password?</a>
-                            <label class="form-check">
-                                <input type="checkbox" class="form-check-input" checked="">
-                                <span class="form-check-label">Remember</span>
-                            </label>
-                        </div> <!-- form-group form-check .// -->
-                        <div class="mb-4">
-                            <button type="submit" class="btn btn-primary w-100"> Login </button>
-                        </div> <!-- form-group// -->
+                            <div class="mb-3">
+                                <input class="form-control" placeholder="Password" type="password">
+                                <div class="mb-3">
+                                    <a href="#" class="float-end font-sm text-muted">Forgot password?</a>
+                                    <label class="form-check">
+                                        <input type="checkbox" class="form-check-input" checked="">
+                                        <span class="form-check-label">Remember</span>
+                                    </label>
+                                    <div class="mb-4">
+                                        <button type="submit" class="btn btn-primary w-100"> Login </button>
                     </form>
                     <p class="text-center small text-muted mb-15">or sign up with</p>
                     <div class="d-grid gap-3 mb-4">
@@ -77,11 +68,9 @@
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-account-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:52 GMT -->
 
 </html>

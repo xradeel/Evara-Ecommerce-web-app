@@ -13,8 +13,6 @@ if (isset($_REQUEST['submit'])) {
 
 
    $MySqlCommand = "SELECT MAX(id) FROM contactus";
-   // echo $MySqlCommand; 
-   // die;
    $Result = mysqli_query($conn, $MySqlCommand);
    $MaxID = mysqli_fetch_array($Result);
    $UserID = $MaxID['0'];
@@ -29,15 +27,12 @@ if (isset($_REQUEST['submit'])) {
       " email, subject, message, status, ipaddress, token) " .
       " VALUES($UserID, '$Reference', '$FullName', '$Contact', " .
       " '$Email', '$Subject', '$Message', $Status, '$IP', '$TokenKey')";
-   // echo $Query;
-   // die;
    $Result = mysqli_query($conn, $Query);
    if ($Result) {
 ?>
       <script>
          alert('Thanks for Contacting. We\'ll respond you soon.');
          window.location.href = 'page-contact.php';
-         // window.location.href = 'contact.php?success';
       </script>
    <?php
    } else {

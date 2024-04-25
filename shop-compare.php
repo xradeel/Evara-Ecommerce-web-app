@@ -1,9 +1,6 @@
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-compare.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:49 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
@@ -14,14 +11,11 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/maind134.css?v=3.4">
 </head>
 
 <body>
-    <!-- link headers -->
     <?php
     require("components/header-one.php");
     require("components/header-mobile.php");
@@ -206,16 +200,13 @@
             </div>
         </section>
     </main>
-    <!-- add footer and pre loader  -->
     <?php
     require("components/footer-one.php");
     require("components/pre-loader.php");
     ?>
-    <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-compare.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:17:49 GMT -->
 
 </html>

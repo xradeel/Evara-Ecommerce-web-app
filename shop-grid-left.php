@@ -1,9 +1,6 @@
 ﻿<!DOCTYPE html>
 <html class="no-js" lang="en">
 
-
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-grid-left.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:57 GMT -->
-
 <head>
     <meta charset="utf-8">
     <title>Evara - eCommerce HTML Template</title>
@@ -14,15 +11,11 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/maind134.css?v=3.4">
 </head>
 
 <body>
-    <!-- Quick view -->
-    <!-- link headers -->
     <?php
     require("components/quick-view.php");
     require("components/header-one.php");
@@ -550,7 +543,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--pagination-->
                         <div class="pagination-area mt-15 mb-sm-5 mb-lg-0">
                             <nav aria-label="Page navigation example">
                                 <ul class="pagination justify-content-start">
@@ -577,7 +569,6 @@
                                 <li><a href="shop-fullwidth.php">Accessories</a></li>
                             </ul>
                         </div>
-                        <!-- Fillter By Price -->
                         <div class="sidebar-widget price_range range mb-30">
                             <div class="widget-header position-relative mb-20 pb-10">
                                 <h5 class="widget-title mb-10">Fill by price</h5>
@@ -621,7 +612,6 @@
                             </div>
                             <a href="shop-grid-left.php" class="btn btn-sm btn-default"><i class="fi-rs-filter mr-5"></i> Fillter</a>
                         </div>
-                        <!-- Product sidebar Widget -->
                         <div class="sidebar-widget product-sidebar  mb-30 p-30 bg-grey border-radius-10">
                             <div class="widget-header position-relative mb-20 pb-10">
                                 <h5 class="widget-title mb-10">New products</h5>
@@ -677,15 +667,12 @@
             </div>
         </section>
     </main>
-    <!-- link footer and preloader -->
     <?php require("components/footer-one.php") ?>
     <?php require("components/pre-loader.php") ?>
 
-    <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/shop-grid-left.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:57 GMT -->
 
 </html>

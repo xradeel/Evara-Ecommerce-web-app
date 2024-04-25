@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-settings-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:05:10 GMT -->
 <head>
     <meta charset="utf-8">
     <title>Evara Dashboard</title>
@@ -13,9 +12,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -57,7 +54,7 @@
                         <a href="page-orders-2.html">Order list 2</a>
                         <a href="page-orders-detail.html">Order detail</a>
                         <a href="page-orders-tracking.html">Order tracking</a>
-<a href="page-invoice.html">Invoice</a>
+                        <a href="page-invoice.html">Invoice</a>
                     </div>
                 </li>
                 <li class="menu-item has-submenu">
@@ -217,7 +214,7 @@
                                             <h5>Website name</h5>
                                             <p class="text-muted" style="max-width:90%">
                                                 Supported languages of all pages including each product lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                                        </div> <!-- col.// -->
+                                        </div>
                                         <div class="col-md-7">
                                             <div class="mb-3">
                                                 <label class="form-label">Home page title</label>
@@ -227,14 +224,14 @@
                                                 <label class="form-label">Description</label>
                                                 <textarea type="text" class="form-control"></textarea>
                                             </div>
-                                        </div> <!-- col.// -->
-                                    </div> <!-- row.// -->
+                                        </div>
+                                    </div>
                                     <div class="row border-bottom mb-4 pb-4">
                                         <div class="col-md-5">
                                             <h5>Access</h5>
                                             <p class="text-muted" style="max-width:90%">Give access of all pages including each product lorem ipsum dolor sit amet,
                                                 consectetur adipisicing</p>
-                                        </div> <!-- col.// -->
+                                        </div>
                                         <div class="col-md-7">
                                             <label class="mb-2 form-check">
                                                 <input class="form-check-input" checked="" name="mycheck_a1" type="radio">
@@ -252,8 +249,8 @@
                                                 <input class="form-check-input" name="mycheck_a1" type="radio">
                                                 <span class="form-check-label"> Stop new shop registration </span>
                                             </label>
-                                        </div> <!-- col.// -->
-                                    </div> <!-- row.// -->
+                                        </div>
+                                    </div>
                                     <div class="row border-bottom mb-4 pb-4">
                                         <div class="col-md-5">
                                             <h5>Notification</h5>
@@ -270,13 +267,13 @@
                                             <div class="mb-3">
                                                 <input class="form-control" placeholder="Text">
                                             </div>
-                                        </div> <!-- col.// -->
-                                    </div> <!-- row.// -->
+                                        </div>
+                                    </div>
                                     <div class="row border-bottom mb-4 pb-4">
                                         <div class="col-md-5">
                                             <h5>Currency</h5>
                                             <p class="text-muted" style="max-width:90%"> Lorem ipsum dolor sit amet, consectetur adipisicing something about this</p>
-                                        </div> <!-- col.// -->
+                                        </div>
                                         <div class="col-md-7">
                                             <div class="mb-3" style="max-width: 200px">
                                                 <label class="form-label">Main currency </label>
@@ -295,22 +292,22 @@
                                                     <option>INR india</option>
                                                 </select>
                                             </div>
-                                        </div> <!-- col.// -->
-                                    </div> <!-- row.// -->
+                                        </div>
+                                    </div>
                                     <button class="btn btn-primary" type="submit">Save all changes</button> &nbsp;
                                     <button class="btn btn-light rounded font-md" type="reset">Reset</button>
                                 </form>
-                            </section> <!-- content-body .// -->
-                        </div> <!-- col.// -->
-                    </div> <!-- row.// -->
-                </div> <!-- card-body .//end -->
-            </div> <!-- card .//end -->
-        </section> <!-- content-main end// -->
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
                     <script>
-                    document.write(new Date().getFullYear())
+                        document.write(new Date().getFullYear())
                     </script> ©, Evara - HTML Ecommerce Template .
                 </div>
                 <div class="col-sm-6">
@@ -326,10 +323,8 @@
     <script src="assets/js/vendors/select2.min.js"></script>
     <script src="assets/js/vendors/perfect-scrollbar.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-settings-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:05:10 GMT -->
 </html>

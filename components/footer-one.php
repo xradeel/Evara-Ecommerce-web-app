@@ -17,19 +17,16 @@
           </div>
         </div>
         <div class="col-lg-5">
-          <!-- Subscribe Form -->
           <form class="form-subcriber d-flex wow fadeIn animated">
             <input type="email" class="form-control bg-white font-small" placeholder="Enter your email" />
             <button class="btn bg-dark text-white" type="submit">
               Subscribe
             </button>
           </form>
-          <!-- End Subscribe Form -->
         </div>
       </div>
     </div>
   </section>
-  <!-- main footer start -->
   <section class="section-padding footer-mid">
     <div class="container pt-15 pb-20">
       <div class="row">

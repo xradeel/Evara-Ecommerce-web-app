@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-orders-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:41 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -14,9 +13,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -56,7 +53,7 @@
                                     </select>
                                 </div>
                             </div>
-                        </header> <!-- card-header end// -->
+                        </header>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-hover">
@@ -86,7 +83,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -104,7 +101,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -122,7 +119,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -140,7 +137,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -158,7 +155,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -176,7 +173,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -194,7 +191,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -212,7 +209,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -230,7 +227,7 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                         <tr>
@@ -248,14 +245,14 @@
                                                         <a class="dropdown-item" href="#">Edit info</a>
                                                         <a class="dropdown-item text-danger" href="#">Delete</a>
                                                     </div>
-                                                </div> <!-- dropdown //end -->
+                                                </div>
                                             </td>
                                         </tr>
                                     </tbody>
                                 </table>
-                            </div> <!-- table-responsive //end -->
-                        </div> <!-- card-body end// -->
-                    </div> <!-- card end// -->
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-md-3">
                     <div class="card mb-4">
@@ -295,7 +292,7 @@
                                 </div>
                             </form>
                         </div>
-                    </div> <!-- card end// -->
+                    </div>
                 </div>
             </div>
             <div class="pagination-area mt-15 mb-50">
@@ -310,7 +307,7 @@
                     </ul>
                 </nav>
             </div>
-        </section> <!-- content-main end// -->
+        </section>
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
@@ -331,11 +328,9 @@
     <script src="assets/js/vendors/select2.min.js"></script>
     <script src="assets/js/vendors/perfect-scrollbar.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-orders-2.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:04:42 GMT -->
 
 </html>

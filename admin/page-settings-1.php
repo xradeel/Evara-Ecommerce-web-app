@@ -2,7 +2,6 @@
 <html lang="en">
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-settings-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:05:10 GMT -->
 <head>
     <meta charset="utf-8">
     <title>Evara Dashboard</title>
@@ -13,9 +12,7 @@
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
-    <!-- Template CSS -->
     <link href="assets/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -57,7 +54,7 @@
                         <a href="page-orders-2.html">Order list 2</a>
                         <a href="page-orders-detail.html">Order detail</a>
                         <a href="page-orders-tracking.html">Order tracking</a>
-<a href="page-invoice.html">Invoice</a>
+                        <a href="page-invoice.html">Invoice</a>
                     </div>
                 </li>
                 <li class="menu-item has-submenu">
@@ -218,29 +215,29 @@
                                                 <div class="col-6  mb-3">
                                                     <label class="form-label">First name</label>
                                                     <input class="form-control" type="text" placeholder="Type here">
-                                                </div> <!-- col .// -->
+                                                </div>
                                                 <div class="col-6  mb-3">
                                                     <label class="form-label">Last name</label>
                                                     <input class="form-control" type="text" placeholder="Type here">
-                                                </div> <!-- col .// -->
+                                                </div>
                                                 <div class="col-lg-6  mb-3">
                                                     <label class="form-label">Email</label>
                                                     <input class="form-control" type="email" placeholder="example@mail.com">
-                                                </div> <!-- col .// -->
+                                                </div>
                                                 <div class="col-lg-6  mb-3">
                                                     <label class="form-label">Phone</label>
                                                     <input class="form-control" type="tel" placeholder="+1234567890">
-                                                </div> <!-- col .// -->
+                                                </div>
                                                 <div class="col-lg-12  mb-3">
                                                     <label class="form-label">Address</label>
                                                     <input class="form-control" type="text" placeholder="Type here">
-                                                </div> <!-- col .// -->
+                                                </div>
                                                 <div class="col-lg-6  mb-3">
                                                     <label class="form-label">Birthday</label>
                                                     <input class="form-control" type="date">
-                                                </div> <!-- col .// -->
-                                            </div> <!-- row.// -->
-                                        </div> <!-- col.// -->
+                                                </div>
+                                            </div>
+                                        </div>
                                         <aside class="col-lg-4">
                                             <figure class="text-lg-center">
                                                 <img class="img-lg mb-3 img-avatar" src="assets/imgs/people/avatar1.jpg" alt="User Photo">
@@ -250,8 +247,8 @@
                                                     </a>
                                                 </figcaption>
                                             </figure>
-                                        </aside> <!-- col.// -->
-                                    </div> <!-- row.// -->
+                                        </aside>
+                                    </div>
                                     <br>
                                     <button class="btn btn-primary" type="submit">Save changes</button>
                                 </form>
@@ -263,26 +260,26 @@
                                             <h6>Password</h6>
                                             <small class="text-muted d-block" style="width:70%">You can reset or change your password by clicking here</small>
                                         </article>
-                                    </div> <!-- col.// -->
+                                    </div>
                                     <div class="col-md">
                                         <article class="box mb-3 bg-light">
                                             <a class="btn float-end btn-light rounded btn-sm font-md" href="#">Deactivate</a>
                                             <h6>Remove account</h6>
                                             <small class="text-muted d-block" style="width:70%">Once you delete your account, there is no going back.</small>
                                         </article>
-                                    </div> <!-- col.// -->
-                                </div> <!-- row.// -->
-                            </section> <!-- content-body .// -->
-                        </div> <!-- col.// -->
-                    </div> <!-- row.// -->
-                </div> <!-- card body end// -->
-            </div> <!-- card end// -->
-        </section> <!-- content-main end// -->
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <footer class="main-footer font-xs">
             <div class="row pb-30 pt-15">
                 <div class="col-sm-6">
                     <script>
-                    document.write(new Date().getFullYear())
+                        document.write(new Date().getFullYear())
                     </script> ©, Evara - HTML Ecommerce Template .
                 </div>
                 <div class="col-sm-6">
@@ -298,10 +295,8 @@
     <script src="assets/js/vendors/select2.min.js"></script>
     <script src="assets/js/vendors/perfect-scrollbar.js"></script>
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
-    <!-- Main Script -->
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
 
 
-<!-- Mirrored from wp.alithemes.com/html/evara/evara-backend/page-settings-1.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 14 Mar 2024 20:05:10 GMT -->
 </html>
