@@ -1,5 +1,6 @@
 <?php
 session_start();
-if (empty($_SESSION['SESSION_ID'])) {
-    header('location:page-login.php');
+
+if (!isset($_SESSION['SESSION_ID']) || $_SESSION['SESSION_ID'] != true) {
+    header('location: page-login.php');
 }

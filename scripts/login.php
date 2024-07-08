@@ -7,6 +7,7 @@ if (isset($_POST['submit'])) {
     $Query = "SELECT * FROM users WHERE email = '$email' AND password = '$SecurePassword'";
 
     $Result = mysqli_query($conn, $Query);
+    session_start();
     if (mysqli_num_rows($Result) > 0) {
         $row = mysqli_fetch_object($Result);
         $_SESSION['SESSION_ID'] = $row->id;
@@ -17,6 +18,7 @@ if (isset($_POST['submit'])) {
     } else {
 ?>
         <script>
+            session_start();
             alert("Invalid Credentials")
         </script>
 <?php

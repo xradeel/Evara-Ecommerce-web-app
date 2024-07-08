@@ -23,7 +23,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             $sql = "INSERT INTO personas (id, name, organization, message, image, status) VALUES ('$UserID', '$name', '$organization', '$description', '$image', '$Status')";
             if ($conn->query($sql) === TRUE) {
-                echo "New member added successfully.";
+?>
+                <script>
+                    alert("New persona added successfully.");
+                    window.location.href = "../personas-list.php";
+                </script>
+<?php
             } else {
                 echo "Error: " . $sql . "<br>" . $conn->error;
             }

@@ -6,6 +6,7 @@ include("helpers/variables.php");
 <html class="no-js" lang="en">
 
 
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:33 GMT -->
 
 <head>
     <meta charset="utf-8">
@@ -17,11 +18,14 @@ include("helpers/variables.php");
     <meta property="og:type" content="">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
+    <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/imgs/theme/favicon.svg">
+    <!-- Template CSS -->
     <link rel="stylesheet" href="assets/css/maind134.css?v=3.4">
 </head>
 
 <body>
+    <!-- link headers -->
     <?php require("components/header-two.php");
     require("components/header-mobile.php");
     ?>
@@ -65,13 +69,14 @@ include("helpers/variables.php");
                 </div>
                 <div class="position-relative">
                     <div class="row wow fadeIn animated">
-                        <!-- <?php
-                                // $Query = "SELECT * FROM dbo.teammembers WHERE status = 1";
-                                // $Result = mysqli_query($PDO, $Query);
-                                // if ($Result->num_rows > 0) {
-                                //     $count = 0;
-                                //     while ($DataRows = mysqli_fetch_array($Result)) {
-                                ?>
+                        <?php
+                        $Query = "SELECT * FROM teammembers WHERE status = 1";
+                        $Result = mysqli_query($conn, $Query);
+                        if ($Result->num_rows > 0) {
+                            $count = 0;
+                            while ($DataRows = mysqli_fetch_array($Result)) {
+                        ?>
+                                <!--col-->
                                 <div class="col-lg-3 col-md-6">
                                     <div class="blog-card border-radius-10 overflow-hidden text-center">
                                         <img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
@@ -84,56 +89,15 @@ include("helpers/variables.php");
                                         </div>
                                     </div>
                                 </div>
+                                <!--col-->
                         <?php
-                        //         $count++;
-                        //         if ($count == 4) break;
-                        //     }
-                        // } else {
-                        //     echo "No Result Found";
-                        // }
-                        ?> -->
-
-                        <?php
-
-                        try {
-                            // Execute the SELECT query
-                            $query = "SELECT * FROM dbo.teammembers WHERE status = 1";
-                            $stmt = $conn->query($query);
-
-                            // Fetch the results
-                            $teamMembers = $stmt->fetchAll(PDO::FETCH_ASSOC);
-
-                            if (count($teamMembers) > 0) {
-                                $count = 0;
-                                foreach ($teamMembers as $DataRows) {
-                                    // Display team member data
-                        ?>
-                                    <!--col-->
-                                    <div class="col-lg-3 col-md-6">
-                                        <div class="blog-card border-radius-10 overflow-hidden text-center">
-                                            <img src="<?php echo "uploads/teammembers/" . $DataRows['image']; ?>" alt="Image not found" class="border-radius-10 mb-30 hover-up">
-                                            <h4 class="fw-500 mb-0"><?php echo $DataRows['name']; ?></h4>
-                                            <p class="fw-400 text-brand mb-10"><?php echo $DataRows['designation']; ?></p>
-                                            <div class="mobile-social-icon wow fadeIn animated mb-sm-5 mb-md-0 animated">
-                                                <a href="<?php echo $DataRows['facebook']; ?>"><img src="assets/imgs/theme/icons/icon-facebook.svg" alt="Icon not found"></a>
-                                                <a href="<?php echo $DataRows['twitter']; ?>"><img src="assets/imgs/theme/icons/icon-twitter.svg" alt=""></a>
-                                                <a href="<?php echo $DataRows['insta']; ?>"><img src="assets/imgs/theme/icons/icon-instagram.svg" alt=""></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--col-->
-                        <?php
-                                    $count++;
-                                    if ($count == 4) break;
-                                }
-                            } else {
-                                echo "No Result Found";
+                                $count++;
+                                if ($count == 4) break;
                             }
-                        } catch (PDOException $e) {
-                            echo "Query execution failed: " . $e->getMessage();
+                        } else {
+                            echo "No Result Found";
                         }
                         ?>
-
                     </div>
                 </div>
             </div>
@@ -150,7 +114,7 @@ include("helpers/variables.php");
                 <div class="row">
                     <?php
                     $Query = "SELECT * FROM mainbranches WHERE status = 1";
-                    $Result = mysqli_query($PDO, $Query);
+                    $Result = mysqli_query($conn, $Query);
                     if ($Result->num_rows > 0) {
                         while ($DataRows = mysqli_fetch_array($Result)) {
                     ?>
@@ -180,7 +144,7 @@ include("helpers/variables.php");
                 <div class="row align-items-center">
                     <?php
                     $Query = "SELECT * FROM personas WHERE status = 1";
-                    $Result = mysqli_query($PDO, $Query);
+                    $Result = mysqli_query($conn, $Query);
                     if ($Result->num_rows > 0) {
                         $count = 0;
                         while ($DataRows = mysqli_fetch_array($Result)) {
@@ -248,12 +212,15 @@ include("helpers/variables.php");
             </div>
         </section>
     </main>
+    <!-- link footer and preloader -->
     <?php require("components/footer-one.php") ?>
     <?php require("components/pre-loader.php") ?>
 
+    <!-- Vendor JS-->
     <?php require("components/js-links.php") ?>
 </body>
 
 
+<!-- Mirrored from wp.alithemes.com/html/evara/evara-frontend/page-about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 13 Mar 2024 18:20:57 GMT -->
 
 </html>

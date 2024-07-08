@@ -63,7 +63,7 @@
                                     <li><a href="#" class="btn btn-facebook hover-up mb-lg-0 mb-sm-4">Login With Facebook</a></li>
                                     <li><a href="#" class="btn btn-google hover-up">Login With Google</a></li>
                                 </ul>
-                                <div class="text-muted text-center">Already have an account? <a href="#">Sign in now</a></div>
+                                <div class="text-muted text-center">Already have an account? <a href="page-login.php">Sign in now</a></div>
                             </div>
                         </div>
                     </div>

@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
+
+
 <head>
     <meta charset="utf-8">
     <title>Evara Dashboard</title>
@@ -25,16 +27,20 @@
                     <form>
                         <div class="mb-3">
                             <input class="form-control" placeholder="Username or email" type="text">
-                            <div class="mb-3">
-                                <input class="form-control" placeholder="Password" type="password">
-                                <div class="mb-3">
-                                    <a href="#" class="float-end font-sm text-muted">Forgot password?</a>
-                                    <label class="form-check">
-                                        <input type="checkbox" class="form-check-input" checked="">
-                                        <span class="form-check-label">Remember</span>
-                                    </label>
-                                    <div class="mb-4">
-                                        <button type="submit" class="btn btn-primary w-100"> Login </button>
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control" placeholder="Password" type="password">
+                        </div>
+                        <div class="mb-3">
+                            <a href="#" class="float-end font-sm text-muted">Forgot password?</a>
+                            <label class="form-check">
+                                <input type="checkbox" class="form-check-input" checked="">
+                                <span class="form-check-label">Remember</span>
+                            </label>
+                        </div>
+                        <div class="mb-4">
+                            <button type="submit" class="btn btn-primary w-100"> Login </button>
+                        </div>
                     </form>
                     <p class="text-center small text-muted mb-15">or sign up with</p>
                     <div class="d-grid gap-3 mb-4">

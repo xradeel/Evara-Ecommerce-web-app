@@ -112,7 +112,7 @@
       </div>
       <div class="col-lg-6">
         <p class="float-md-left font-sm text-muted mb-0">
-          &copy; 2022, <strong class="text-brand">Evara</strong> - HTML
+          &copy; 2024, <strong class="text-brand">Evara</strong> - HTML
           Ecommerce Template
         </p>
       </div>

@@ -7,7 +7,7 @@
             <ul>
               <li>
                 <i class="fi-rs-smartphone"></i>
-                <a href="#">(+01) - 2345 - 6789</a>
+                <a href="tel: +92 314 7128128">(+92) - 314 7128128</a>
               </li>
               <li>
                 <i class="fi-rs-marker"></i><a href="page-contact.php">Our location</a>

@@ -1,6 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
+
+
 <head>
     <meta charset="utf-8">
     <title>Evara Dashboard</title>
@@ -54,40 +56,40 @@
                                     <label for="twitter" class="form-label">X Bio</label>
                                     <input type="text" placeholder="X bio link" class="form-control" id="twitter" name="twitter">
                                 </div>
-                                <input class="form-check-input" type="checkbox" value="1" name="active_member">
-                                <span class="form-check-label"> Active </span>
-                                </label> -->
                                 <input class="btn btn-md rounded font-sm hover-up" type="submit" value="Add Member">
                             </div>
                         </div>
-                        <div class="col-lg-3">
-                            <div class="card mb-4">
-                                <div class="card-header">
-                                    <h4>Media</h4>
-                                </div>
-                                <div class="card-body">
-                                    <div class="input-upload">
-                                        <img src="assets/imgs/theme/upload.svg" alt="">
-                                        <input class="form-control" type="file" name="image" required>
-                                    </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card mb-4">
+                            <div class="card-header">
+                                <h4>Media</h4>
+                            </div>
+                            <div class="card-body">
+                                <div class="input-upload">
+                                    <img src="assets/imgs/theme/upload.svg" alt="">
+                                    <input class="form-control" type="file" name="image" required>
                                 </div>
                             </div>
                         </div>
-            </form>
-            <footer class="main-footer font-xs">
-                <div class="row pb-30 pt-15">
-                    <div class="col-sm-6">
-                        <script>
-                            document.write(new Date().getFullYear())
-                        </script> ©, Evara - T-Shirts .
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="text-sm-end">
-                            All rights reserved
-                        </div>
                     </div>
                 </div>
-            </footer>
+            </form>
+        </section>
+        <footer class="main-footer font-xs">
+            <div class="row pb-30 pt-15">
+                <div class="col-sm-6">
+                    <script>
+                        document.write(new Date().getFullYear())
+                    </script> ©, Evara - T-Shirts .
+                </div>
+                <div class="col-sm-6">
+                    <div class="text-sm-end">
+                        All rights reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
     </main>
     <script src="assets/js/vendors/jquery-3.6.0.min.js"></script>
     <script src="assets/js/vendors/bootstrap.bundle.min.js"></script>
@@ -96,7 +98,5 @@
     <script src="assets/js/vendors/jquery.fullscreen.min.js"></script>
     <script src="assets/js/main.js" type="text/javascript"></script>
 </body>
-
-
 
 </html>
