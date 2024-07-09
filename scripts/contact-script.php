@@ -1,5 +1,5 @@
 <?php
-include("helpers/config.php");
+include("../helpers/config.php");
 if (isset($_REQUEST['submit'])) {
    $FullName = mysqli_real_escape_string($conn, $_POST['name']);
    $Email = mysqli_real_escape_string($conn, $_POST['email']);
@@ -12,7 +12,7 @@ if (isset($_REQUEST['submit'])) {
    $TokenKey = substr($TokenKey, 0, 32);
 
 
-   $MySqlCommand = "SELECT MAX(id) FROM contactus";
+   $MySqlCommand = "SELECT MAX(id) FROM contact";
    $Result = mysqli_query($conn, $MySqlCommand);
    $MaxID = mysqli_fetch_array($Result);
    $UserID = $MaxID['0'];
@@ -23,8 +23,8 @@ if (isset($_REQUEST['submit'])) {
    $Status = 0;
    $IP = $_SERVER['REMOTE_ADDR'];
 
-   $Query = "INSERT INTO contactus (id, reference, name, contact, " .
-      " email, subject, message, status, ipaddress, token) " .
+   $Query = "INSERT INTO contact (id, reference, name, contact, " .
+      " email, subject, message, status, ipaddress, accesstoken) " .
       " VALUES($UserID, '$Reference', '$FullName', '$Contact', " .
       " '$Email', '$Subject', '$Message', $Status, '$IP', '$TokenKey')";
    $Result = mysqli_query($conn, $Query);
@@ -32,7 +32,7 @@ if (isset($_REQUEST['submit'])) {
 ?>
       <script>
          alert('Thanks for Contacting. We\'ll respond you soon.');
-         window.location.href = 'page-contact.php';
+         window.location.href = '../page-contact.php';
       </script>
    <?php
    } else {
