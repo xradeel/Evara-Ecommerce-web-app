@@ -10,7 +10,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if (isset($_FILES['image']) && $_FILES['image']['error'] === UPLOAD_ERR_OK) {
 
-        $image = $_FILES['image']['name'];
+        $path = $_FILES['image']['name'];
+        $ext = pathinfo($path, PATHINFO_EXTENSION);
+        $image = 'member_' . time() . '.' . $ext;
         $temp_image = $_FILES['image']['tmp_name'];
         $upload_dir = "../../uploads/teammembers/";
         $target_image = $upload_dir . basename($image);
