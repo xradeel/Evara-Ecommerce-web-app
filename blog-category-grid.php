@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿<?php
+include("helpers/config.php");
+include("helpers/variables.php");
+?>
+<!DOCTYPE html>
 <html class="no-js" lang="en">
 
 <head>
@@ -80,31 +84,44 @@
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-lg-6">
-                                    <article class="wow fadeIn animated hover-up mb-30">
-                                        <div class="post-thumb img-hover-scale">
-                                            <a href="blog-post-fullwidth.php">
-                                                <img src="assets/imgs/blog/blog-2.jpg" alt="">
-                                            </a>
-                                            <div class="entry-meta">
-                                                <a class="entry-meta meta-2" href="blog-category-grid.html">Politic</a>
-                                            </div>
-                                        </div>
-                                        <div class="entry-content-2">
-                                            <h3 class="post-title mb-15">
-                                                <a href="blog-post-fullwidth.php">The litigants on the screen are not actors</a>
-                                            </h3>
-                                            <p class="post-exerpt mb-30">These people envy me for having a lifestyle they don’t have, but the truth is, sometimes I envy their lifestyle instead. Struggling to sell one multi.</p>
-                                            <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
-                                                <div>
-                                                    <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
-                                                    <span class="hit-count has-dot">126k Views</span>
+                                <?php
+                                $Query = "SELECT * FROM blogs WHERE published = 1";
+                                $Result = mysqli_query($conn, $Query);
+                                if ($Result->num_rows > 0) {
+                                    while ($data = mysqli_fetch_array($Result)) {
+                                ?>
+                                        <div class="col-lg-6">
+                                            <article class="wow fadeIn animated hover-up mb-30">
+                                                <div class="post-thumb img-hover-scale">
+                                                    <a href="blog-post-fullwidth.php?id=<?php echo $data['accesstoken'] ?>">
+                                                        <img src="uploads/blogs/<?php echo $data['image']; ?>" alt="Image not found">
+                                                    </a>
+                                                    <div class="entry-meta">
+                                                        <a class="entry-meta meta-2" href="blog-category-grid.php">Politic</a>
+                                                    </div>
                                                 </div>
-                                                <a href="blog-post-fullwidth.php" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
-                                            </div>
+                                                <div class="entry-content-2">
+                                                    <h3 class="post-title mb-15">
+                                                        <a href="blog-post-fullwidth.php?id=<?php echo $data['accesstoken'] ?>"><?php echo $data['title']; ?></a>
+                                                    </h3>
+                                                    <p class="post-exerpt mb-30"><?php echo $data['summary']; ?></p>
+
+                                                    <div class="entry-meta meta-1 font-xs color-grey mt-10 pb-10">
+                                                        <div>
+                                                            <span class="post-on"> <i class="fi-rs-clock"></i> 25 April 2022</span>
+                                                            <span class="hit-count has-dot">126k Views</span>
+                                                        </div>
+                                                        <a href="blog-post-fullwidth.php?id=<?php echo $data['accesstoken'] ?>" class="text-brand">Read more <i class="fi-rs-arrow-right"></i></a>
+                                                    </div>
+                                                </div>
+                                            </article>
                                         </div>
-                                    </article>
-                                </div>
+                                <?php
+                                    }
+                                } else {
+                                    echo "No Result Found";
+                                }
+                                ?>
                                 <div class="col-lg-6">
                                     <article class="wow fadeIn animated hover-up mb-30">
                                         <div class="post-thumb img-hover-scale">
